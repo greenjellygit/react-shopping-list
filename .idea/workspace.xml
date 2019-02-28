@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b2cd133-b7b7-4623-8523-1bbf5c2e8ada" name="Default Changelist" comment="" />
+    <list default="true" id="9b2cd133-b7b7-4623-8523-1bbf5c2e8ada" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/actions/search.action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/search.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/item.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/search-form.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search-form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shopping-list.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shopping-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/authorization.container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/authorization-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/search.container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/search-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +32,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="4" />
-          <entry key="js" value="83" />
+          <entry key="js" value="97" />
           <entry key="json" value="5" />
           <entry key="md" value="1" />
           <entry key="scss" value="6" />
@@ -30,7 +43,7 @@
         <counts>
           <entry key="CSS" value="4" />
           <entry key="JSON" value="5" />
-          <entry key="JavaScript" value="83" />
+          <entry key="JavaScript" value="97" />
           <entry key="Markdown" value="1" />
           <entry key="SCSS" value="6" />
           <entry key="TypeScript" value="1" />
@@ -45,7 +58,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="20" />
-          <entry key="js" value="3955" />
+          <entry key="js" value="4124" />
           <entry key="json" value="5" />
           <entry key="scss" value="330" />
         </counts>
@@ -54,14 +67,27 @@
         <counts>
           <entry key="CSS" value="20" />
           <entry key="JSON" value="5" />
-          <entry key="JavaScript" value="3955" />
+          <entry key="JavaScript" value="4124" />
           <entry key="SCSS" value="330" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -77,14 +103,19 @@
       <find>string</find>
       <find>obser</find>
       <find>selectedItemsList</find>
-      <find>selectedItems</find>
       <find>handleItemClick</find>
       <find>itemsList</find>
+      <find>AuthorizationConatiner</find>
+      <find>shoppingItemList</find>
+      <find>selectedItems</find>
+      <find>props</find>
+      <find>SearchPage</find>
+      <find>selected</find>
     </findStrings>
     <replaceStrings>
       <replace>selectedItemsList</replace>
-      <replace>selectedItems</replace>
       <replace>shoppingItemList</replace>
+      <replace>selectedItems</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -101,7 +132,6 @@
         <option value="$PROJECT_DIR$/src/styles/index.scss" />
         <option value="$PROJECT_DIR$/src/components/item.components.js" />
         <option value="$PROJECT_DIR$/src/allgero-api.utils.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/allegro-api.utils.js" />
         <option value="$PROJECT_DIR$/src/components/item.component.js" />
         <option value="$PROJECT_DIR$/src/components/shopping-list.component.js" />
@@ -109,7 +139,17 @@
         <option value="$PROJECT_DIR$/src/components/search-form.component.js" />
         <option value="$PROJECT_DIR$/src/containers/search.container.js" />
         <option value="$PROJECT_DIR$/src/containers/authorization.container.js" />
+        <option value="$PROJECT_DIR$/src/search.action.js" />
+        <option value="$PROJECT_DIR$/src/search.reducer.js" />
+        <option value="$PROJECT_DIR$/src/reducers/search.reducer.js" />
+        <option value="$PROJECT_DIR$/src/reducers/index.js" />
+        <option value="$PROJECT_DIR$/src/components/item.js" />
+        <option value="$PROJECT_DIR$/src/components/search-form.js" />
+        <option value="$PROJECT_DIR$/src/containers/authorization-page.js" />
+        <option value="$PROJECT_DIR$/src/containers/search-page.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/shopping-list.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
       </list>
     </option>
   </component>
@@ -158,12 +198,36 @@
             <path>
               <item name="react-shopping-list" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-shopping-list" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-shopping-list" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-shopping-list" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="redux-axios-middleware" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-shopping-list" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-shopping-list" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="redux-axios-middleware" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-shopping-list" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-shopping-list" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-shopping-list" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-shopping-list" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-shopping-list" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-shopping-list" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-shopping-list" type="b2602c69:ProjectViewProjectNode" />
@@ -177,6 +241,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="react-shopping-list" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-shopping-list" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -189,7 +259,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550686917365" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551398214933" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../shopping-listasd" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -201,14 +271,17 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2018.2.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Jelly\Desktop\nauka\react\react-shopping-list\src" />
-      <recent name="C:\Users\Jelly\Desktop\nauka\react\react-shopping-list\src\containers" />
-      <recent name="C:\Users\Jelly\Desktop\nauka\react\react-shopping-list\src\styles" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jelly\Desktop\nauka\react\react-shopping-list\src\actions" />
+      <recent name="C:\Users\Jelly\Desktop\nauka\react\react-shopping-list\src\reducers" />
       <recent name="C:\Users\Jelly\Desktop\nauka\react\react-shopping-list\src" />
       <recent name="C:\Users\Jelly\Desktop\nauka\react\react-shopping-list\src\components" />
+      <recent name="C:\Users\Jelly\Desktop\nauka\react\react-shopping-list\src\styles" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jelly\Desktop\nauka\react\react-shopping-list\src\reducers" />
+      <recent name="C:\Users\Jelly\Desktop\nauka\react\react-shopping-list\src" />
+      <recent name="C:\Users\Jelly\Desktop\nauka\react\react-shopping-list\src\containers" />
       <recent name="C:\Users\Jelly\Desktop\nauka\react\react-shopping-list\src\styles" />
     </key>
   </component>
@@ -283,7 +356,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36138000" />
+    <option name="totallyTimeSpent" value="42725000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -326,6 +399,18 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/reducers/search.reducer.js</url>
+          <line>6</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -357,13 +442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -383,8 +461,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        <state relative-caret-position="374">
+          <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -412,24 +490,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/shopping-list.component.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/item.component.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/search-form.component.js" />
-    <entry file="file://$PROJECT_DIR$/src/containers/search.container.js" />
-    <entry file="file://$PROJECT_DIR$/src/containers/authorization.container.js" />
+    <entry file="file://$PROJECT_DIR$/src/containers/search-page.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/redux-axios-middleware/dist/bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="516" column="31" selection-start-line="516" selection-start-column="31" selection-end-line="516" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/search.action.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/shopping-list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/search-form.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/authorization-page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/search-page.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="309">
+          <caret line="35" column="39" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="136">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/search.reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/item.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>

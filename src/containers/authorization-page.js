@@ -4,7 +4,7 @@ import {clients} from "../clients";
 import {Redirect} from "react-router-dom";
 import {attachAuthInterceptor, getAccessToken} from "../allegro-api.utils";
 
-export class AuthorizationConatiner extends Component {
+export class AuthorizationPage extends Component {
 
   constructor() {
     super();

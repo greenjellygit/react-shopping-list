@@ -1,8 +1,8 @@
 import React, {Component} from "react";
-import ItemComponent from "./item.component";
+import Item from "./item";
 import {getItemImageUrl, getItemPice} from "../allegro-api.utils";
 
-class SearchFormComponent extends Component {
+class SearchForm extends Component {
 
   constructor() {
     super();
@@ -26,8 +26,8 @@ class SearchFormComponent extends Component {
         </form>
         <div className='search-form-item-list'>
           {this.props.itemsList.map((item) => (
-            <ItemComponent key={item.id} name={item.name} price={getItemPice(item)} imageUrl={getItemImageUrl(item)}
-                           item={item} handleItemClick={this.props.handleItemClick}/>
+            <Item key={item.id} name={item.name} price={getItemPice(item)} imageUrl={getItemImageUrl(item)}
+                  item={item} handleItemClick={this.props.handleItemClick}/>
           ))}
         </div>
       </div>
@@ -35,4 +35,4 @@ class SearchFormComponent extends Component {
   }
 }
 
-export default SearchFormComponent;
+export default SearchForm;

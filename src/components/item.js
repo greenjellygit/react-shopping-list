@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from 'prop-types'
 
-const ItemComponent = ({name, price, imageUrl, item, handleItemClick}) => {
+const Item = ({name, price, imageUrl, item, handleItemClick}) => {
   return (
     <div className='item-container' style={{backgroundImage: `url('${imageUrl}')`}} onClick={() => handleItemClick(item)}>
       <div className='item-description'>{name}</div>
@@ -10,7 +10,7 @@ const ItemComponent = ({name, price, imageUrl, item, handleItemClick}) => {
   );
 };
 
-ItemComponent.propTypes = {
+Item.propTypes = {
   name: PropTypes.string,
   price: PropTypes.oneOfType([
     PropTypes.string,
@@ -20,10 +20,10 @@ ItemComponent.propTypes = {
   handleItemClick: PropTypes.func
 };
 
-ItemComponent.defaultProps = {
+Item.defaultProps = {
   handleItemClick: () => {
     console.log('item clicked')
   }
 };
 
-export default ItemComponent;
+export default Item;
