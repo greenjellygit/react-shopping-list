@@ -7,9 +7,14 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
+    "react-redux": "^6.0.1",
+    "react-redux-lifecycle": "^2.2.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.5",
-    "react-transition-group": "^2.5.3"
+    "react-transition-group": "^2.5.3",
+    "redux": "^4.0.1",
+    "redux-axios-middleware": "^4.0.0",
+    "redux-logger": "^3.0.6"
   },
   "devDependencies": {
     "@types/react": "^16.8.3",
